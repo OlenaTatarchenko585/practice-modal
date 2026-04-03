@@ -1,0 +1,46 @@
+<div class="backdrop is-hidden" data-order-modal>
+  <div class="modal">
+    <button type="button" class="close-btn" data-order-modal-close>
+      &times;
+    </button>
+
+    <h2 class="modal-title">Замовити зворотний зв'язок</h2>
+
+    <form class="order-form">
+      <div class="form-field">
+        <label class="form-label" for="user-name">Ім'я*</label>
+        <input
+          class="form-input"
+          type="text"
+          name="userName"
+          id="user-name"
+          placeholder="Дмитро"
+          required
+        />
+      </div>
+
+      <div class="form-field">
+        <label class="form-label" for="user-phone">Телефон*</label>
+        <input
+          class="form-input"
+          type="tel"
+          name="userPhone"
+          id="user-phone"
+          placeholder="38 099 123 22 11"
+          required
+        />
+      </div>
+
+      <div class="form-field">
+        <label class="form-label" for="user-comment">Коментар</label>
+        <textarea
+          class="form-textarea"
+          name="userComment"
+          id="user-comment"
+          placeholder="Введіть ваш коментар"
+        ></textarea>
+      </div>
+      <button type="submit">Надіслати заявку</button>
+    </form>
+  </div>
+</div>
